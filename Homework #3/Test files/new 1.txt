@@ -1,0 +1,90 @@
+BOOK->null
+WEAK->null
+WEEK->null
+||||
+NULL
+
+deletelist() {
+	while
+
+}
+
+
+charfound(char ch) {
+	node* ptr = head;
+	while(ptr!=NULL) {
+		if(ptr->data == ch) {
+			return true;
+			}
+			ptr = ptr->right;
+	}
+	return false;
+}
+
+while(head != NULL && charfound(ch)) {
+	node* ptr = head;
+	if(head->data == ch) {
+		head = head->right;
+		deletelist_col(ptr);
+	}
+	else {
+		while(ptr!=NULL) {
+			if(ptr->data == ch) {
+				node* temp = head;
+				
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+charfound(char ch) {
+node* ptr = head;
+while(ptr!= NULL) {
+	if(ptr->Data == ch) {
+		return true;
+	}
+	ptr = ptr->down;
+}
+return false;
+}
+
+node* ptr = head;
+while(ptr != NULL) {
+	ptr == NULL'?
+}
+
+delete_rows_with_Char(ch) {
+
+while(charfound(Ch)) {
+	node* ptr = head;
+	while(ptr != NULL) {
+		if(ptr->data == ch) { // row to be deleted is found
+			node*temp = head;
+			while(temp->down != ptr) {
+				temp = temp->down;
+			}
+			while(temp != NULL) {
+				temp->down = ptr->down;
+				temp = temp->right;
+				ptr = ptr->right;
+			}
+			
+		}
+	}
+}
+
+}
+
